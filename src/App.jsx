@@ -3,7 +3,7 @@ import { vocabularyData } from "./vocabularyData";
 import { grammarData } from "./grammarData";
 
 // ============================================================
-// TOPIK MASTER UZ — Premium React App
+// TOPIK by Xaydarov  — Premium React App
 // All components, hooks, logic in one file
 // ============================================================
 
@@ -273,7 +273,7 @@ function Header({ dark, setDark, page, setPage, xp, streak, user }) {
           <div style={{ width: 38, height: 38, borderRadius: 10, background: "var(--grad1)", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "var(--glow)", fontSize: 20, flexShrink: 0 }}>🇰🇷</div>
           <div className="hide-mobile">
             <div style={{ fontWeight: 900, fontSize: 15, background: "var(--grad2)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", lineHeight: 1.1 }}>TOPIK</div>
-            <div style={{ fontSize: 10, color: "var(--text3)", fontWeight: 700, letterSpacing: 2, lineHeight: 1 }}>MASTER UZ</div>
+            <div style={{ fontSize: 10, color: "var(--text3)", fontWeight: 700, letterSpacing: 2, lineHeight: 1 }}>by Xaydarov </div>
           </div>
         </div>
         {/* Nav */}

@@ -270,7 +270,7 @@ function Header({ dark, setDark, page, setPage, xp, streak, user }) {
       <div style={{ maxWidth: 1280, margin: "0 auto", display: "flex", alignItems: "center", gap: 16, height: 64 }}>
         {/* Logo */}
         <div style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }} onClick={() => setPage("home")}>
-          <div style={{ width: 38, height: 38, borderRadius: 10, background: "var(--grad1)", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "var(--glow)", fontSize: 20, flexShrink: 0 }}>🇰🇷</div>
+          <div style={{ width: 38, height: 38, borderRadius: 10, background: "var(--grad1)", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "var(--glow)", fontSize: 20, flexShrink: 0 }}>KC</div>
           <div className="hide-mobile">
             <div style={{ fontWeight: 900, fontSize: 15, background: "var(--grad2)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", lineHeight: 1.1 }}>TOPIK</div>
             <div style={{ fontSize: 10, color: "var(--text3)", fontWeight: 700, letterSpacing: 2, lineHeight: 1 }}>by Xaydarov </div>
